@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(arch.jpg) ;
+  background-image: url(20210827_213616.jpg) ;
   
 }
 
@@ -407,10 +407,16 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-size: 56px;
   font-weight: 700;
-  line-height: 72px;
-  color: white;
+  margin-top: 54vh;
+  color: whitesmoke;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 75vh;
+}
+#hero p {
+  margin: 0;
+  font-weight: 100;
+  color: white;
+  font-family: helvetica;
+  font-style: italic;
 }
 
 #hero h2 {
@@ -1139,4 +1145,12 @@ section {
   to {
     transform: translateY(-2000px);
   }
+}
+
+.neon {
+  
+  color: red;
+    text-shadow: 0 0 5px white, 0 0 5px red,
+             0 0 5px red, 0 0 5px red,
+             0 0 5px red;
 }
